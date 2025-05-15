@@ -1,18 +1,22 @@
 * {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: #1F2937;
     color: #f9faf8;
+    background-color: #1F2937;
+    box-sizing: border-box;
 }
 
 body {
     display: flex;
     flex-direction: column;
-    gap: 60px;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
 }
 
 nav {
     display: flex;
     margin-left: 10%;
+    
     
 
 }
@@ -31,6 +35,7 @@ ul {
     gap: 100px;
     max-width: 80%;
     margin-left: 10%;
+    padding-bottom: 20px;
 
 }
 
@@ -38,6 +43,7 @@ ul {
 .inside-container-one h2 {
     font-size: 48px;
     font-weight: 900;
+
 }
 
 .container-one button {
@@ -51,15 +57,120 @@ ul {
 .container-two {
     display: flex;
     flex-direction: column;
+    max-width: 100%;
+    background-color: #f9faf8;
+    
+}
+.container-two h2{
+    text-align: center;
+    font-weight: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    background-color: #f9faf8;
+
 }
 
 .inside-container-two {
     display: flex;
+    justify-content: space-evenly;
+    background-color: #f9faf8;
 
 }
 
 .content {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
+    max-width: 200px;
+    background-color: #f9faf8;
+}
+
+.content p {
+    background-color: #f9faf8;
+    color: #1F2937;
+}
+
+.container-three{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    
+
+}
+
+.container-three p {
+    max-width: 70%;
+    text-align: center;
+    margin-left: 15%;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+
+
+}
+
+.container-four{
+    display: flex;
+    justify-content: center;
+    align-content: center ;
+    background-color: #f9faf8;
+     padding-top: 30px;
+     padding-bottom: 30px;
+    
+    
+}
+
+
+.inside-container-four{
+    display: flex;
+    gap: 200px;
+    width: 70%;
+    padding: 10px 20px;
+    background-color: #3882f6;
+    border-radius: 10px;
+   
+    
+    
+}
+
+.inner-container-four{
+    background-color: #3882f6;
+}
+
+
+
+.inner-container-four h3{
+    
+    background-color: #3882f6;
+
+}
+.inner-container-four p{
+    
+    background-color: #3882f6;
+    
+
+}
+.inside-container-four button {
+    align-self: center;
+    background-color: #3882f6;
+    border-style: solid;
+    border-color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-right: 10%;
+    padding: 10px 10px;
+    width: 150px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+
+}
+
+#quote{
+    margin-left: 60%;
+    font-weight: bold;
+ 
 }
